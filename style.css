@@ -1,0 +1,189 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0 30px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    padding: 0 15% 5% 15%;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10%;
+}
+
+.header-top h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+    margin-top: 0;
+}
+
+.header-bottom {
+    display: flex;
+}
+
+.right-side, .left-side {
+    flex: 1 1 0;
+}
+
+.left-side {
+    padding-right: 5%;
+}
+
+.left-side p, .navigation {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.left-side h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.left-side button {
+    color: #e5e7eb;
+    font-size: 24px;
+    border: 0;
+    background-color: #3882F6;
+    padding: 8px 32px 8px 32px;
+    border-radius: 10px;
+}
+
+.right-side img {
+    height: 100%;
+}
+
+.info-section h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-top: 3%;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card img {
+    max-width: 200px;
+    max-height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+}
+
+.car-description {
+    color: #1f2937;
+    font-size: 12px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    text-align: left;
+    max-width: 70vh;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.author {
+    margin-left: 40vh;
+}
+
+.blue-block {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border-radius: 5px;
+    margin: 80px 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification-header {
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.notification-text {
+    font-weight: light;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+.notification-register {
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
+    font-size: 24px;
+    margin-left: 50px;
+    background-color: #3882F6;
+    padding: 8px 32px 8px 32px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.notification-text {
+    color: #e5e7eb;
+}
